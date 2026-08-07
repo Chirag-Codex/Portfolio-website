@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #242833 #0B0D12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0B0D12;
+  cursor: default;
+}
+
+::selection {
+  background: #6E5BFF;
+  color: #0B0D12;
+}
+
+/* Utility: mono label / eyebrow style used across the site */
+.eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: #9198A9;
+}
+
+.line-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, #242833 15%, #242833 85%, transparent);
+}
+
+/* window chrome dots, reused in navbar / hero / project cards */
+.chrome-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* visible keyboard focus */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #6E5BFF;
+  outline-offset: 3px;
+  border-radius: 4px;
+}

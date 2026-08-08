@@ -39,7 +39,7 @@ export const profile = {
   ],
   contact: {
     email: "2408.chirag@gmail.com",
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/"
+    github: "https://github.com/chirag-codex",
+    linkedin: "https://www.linkedin.com/in/chirag-dudeja-816612335/"
   }
 }

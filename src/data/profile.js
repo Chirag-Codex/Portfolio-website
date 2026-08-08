@@ -18,7 +18,7 @@ export const profile = {
     },
     {
       label: "Agentic AI",
-      detail: "LangChain4j, LLM-backed assistants, tool-calling agents"
+      detail: "LangChain4j, LLM-backed assistants, tool-calling agents Spring AI"
     },
     {
       label: "Systems & Messaging",

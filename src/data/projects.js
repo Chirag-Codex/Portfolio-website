@@ -2,7 +2,6 @@ export const projects = [
   {
     id: "trading-platform",
     name: "Trading Platform",
-    domain: "trading-platform.app",
     year: "2026",
     category: "Full-Stack",
     tagline: "A crypto tracking & wallet dashboard with live charting.",
@@ -25,7 +24,6 @@ export const projects = [
   {
     id: "swastik-ai",
     name: "Swastik AI",
-    domain: "swastik.health",
     year: "2026",
     category: "Agentic AI",
     tagline: "An AI health assistant that reminds you to take your medicine.",
@@ -48,7 +46,6 @@ export const projects = [
   {
     id: "project-management",
     name: "Project Management",
-    domain: "pm.tools",
     year: "2025",
     category: "Full-Stack",
     tagline: "A lightweight Jira-style tool for tracking small dev projects.",
@@ -71,7 +68,6 @@ export const projects = [
   {
     id: "harry-counsellor",
     name: "Harry",
-    domain: "harry.study",
     year: "2026",
     category: "Agentic AI",
     tagline: "A German university counsellor, on call in a chat window.",
